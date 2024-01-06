@@ -1,3 +1,3 @@
 FROM golang
-RUN go install github.com/acheong08/ChatGPTProxy@latest
+RUN go install github.com/duansix/ChatGPTProxy@latest
 CMD [ "ChatGPTProxy" ]
